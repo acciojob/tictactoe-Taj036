@@ -45,7 +45,7 @@ let currentPlayer = 1;
   }
 
   function updateMessage() {
-    document.getElementById('message').innerText = players[currentPlayer - 1] + ", you're up!";
+    document.getElementById('message').innerText = players[currentPlayer - 1] + ", you're up";
   }
 
   function checkWin() {
